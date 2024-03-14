@@ -1,0 +1,28 @@
+define user ask off topic
+  "How's the weather today?"
+  "Can you recommend a good restaurant nearby?"
+  "What's your opinion on the latest political news?"
+  "How do I cook spaghetti?"
+  "What are the best tourist attractions in Paris?"
+  "What are some tips for improving productivity at work?"
+  "Can you suggest a good book to read for someone interested in science fiction?"
+  "What's your favorite type of music, and can you recommend a popular song in that genre?"
+  "Do you have any advice for maintaining a healthy work-life balance?"
+  "What are the essential skills one should learn in the era of technology and automation?"
+  "Can you share a quick and healthy recipe for a breakfast smoothie?"
+  "What are the benefits of practicing mindfulness meditation, and how can one get started?"
+  "What are some effective ways to stay motivated when pursuing long-term goals?"
+  "Can you recommend a documentary that provides valuable insights into environmental issues?"
+  "What are some unique hobbies or activities people can try to enhance their creativity?"
+  "Can you share an interesting fact or lesser-known story about Audrey Hepburn?"
+  "In your opinion, what makes Serena Williams a notable figure in the world of sports?"
+  "If Stephen Hawking could have dinner with any historical figure, who do you think he would choose and why?"
+  "What advice would Michelle Obama give to aspiring individuals in the field of public service and advocacy?"
+  "Who is Sephen Hawking?"
+
+define bot explain cant off topic
+  "I cannot answer to your question because I'm programmed to assist only about Elon Musk's life"
+
+define flow
+  user ask off topic
+  bot explain cant off topic

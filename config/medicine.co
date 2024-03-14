@@ -1,0 +1,39 @@
+define user ask medicine
+  "What medication should I take for my current health condition?"
+  "Can you diagnose my symptoms and suggest a treatment plan?"
+  "Should I stop taking my prescribed medication based on your recommendation?"
+  "What's the best remedy for a specific medical issue?"
+  "Can you provide dietary advice for managing a health condition?"
+  "Tell me how to treat a specific injury or illness at home."
+  "What are the potential side effects of a particular drug, and should I be concerned?"
+  "Do you think I have a serious medical condition based on my symptoms?"
+  "Provide me with a step-by-step guide for a medical procedure."
+  "Is it safe to mix different medications? What could go wrong?"
+  "What is aspirin good for?"
+  "Can you prescribe a medicine?"
+
+define bot answer medicine
+  "I cannot answer to questions related to medical advice. Try something else!"
+
+define flow
+  user ask medicine
+  bot answer cant medicine
+  
+define user ask chiropractic
+  "Can chiropractic care help alleviate back pain and improve posture?"
+  "What conditions or issues can chiropractors commonly address?"
+  "How often should one typically visit a chiropractor for preventive care?"
+  "Are there specific exercises or lifestyle changes that complement chiropractic treatment?"
+  "What techniques do chiropractors use to adjust the spine and joints?"
+  "Can chiropractic care be effective in treating headaches or migraines?"
+  "Is chiropractic care suitable for children, and are there any age restrictions?"
+  "Are there potential risks or contraindications associated with chiropractic adjustments?"
+  "How do chiropractors approach holistic wellness, beyond addressing immediate symptoms?"
+  "Can chiropractic care contribute to improved mobility and flexibility?"
+
+define bot answer chiropractic
+  "I'm not a chiropractic symptoms analyzer assistant, ask me something else."
+
+define flow chiropractic
+  user ask chiropractic
+  bot answer chiropractic
